@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApiTester", "StockApiTester.csproj", "{C815E0F8-612F-48C6-B8D6-AD13D98D494E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleFinance", "..\GoogleFinance\GoogleFinance.csproj", "{0E2B30A8-BDF8-422A-8E59-ED187545FA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage", "AlphaVantage\AlphaVantage.csproj", "{1EC07F58-D7E1-41BE-BE11-C69860F92B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C815E0F8-612F-48C6-B8D6-AD13D98D494E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C815E0F8-612F-48C6-B8D6-AD13D98D494E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C815E0F8-612F-48C6-B8D6-AD13D98D494E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C815E0F8-612F-48C6-B8D6-AD13D98D494E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2B30A8-BDF8-422A-8E59-ED187545FA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2B30A8-BDF8-422A-8E59-ED187545FA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2B30A8-BDF8-422A-8E59-ED187545FA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2B30A8-BDF8-422A-8E59-ED187545FA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC07F58-D7E1-41BE-BE11-C69860F92B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC07F58-D7E1-41BE-BE11-C69860F92B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC07F58-D7E1-41BE-BE11-C69860F92B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC07F58-D7E1-41BE-BE11-C69860F92B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
